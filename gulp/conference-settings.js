@@ -1,9 +1,12 @@
+const conferenceTitle = 'Amsterdam_JSNation';
+const eventYear = 'Y2020';
+
 const tagColors = {
   NodeJS: {
     tagBG: '#7AB464',
     color: '#fff',
   },
-  'NestJS': {
+  NestJS: {
     tagBG: '#ea2845',
     color: '#fff',
   },
@@ -23,8 +26,12 @@ const tagColors = {
     tagBG: '#f200fa',
     color: '#400042',
   },
-  VueJS: {
-    tagBG: '#4EBA87',
+  PWA: {
+    tagBG: '#d400fa',
+    color: '#fff',
+  },
+  'Vue.js': {
+    tagBG: '#0f9551',
     color: '#fff',
   },
   Performance: {
@@ -37,6 +44,14 @@ const tagColors = {
   },
   Svelte: {
     tagBG: '#ff5200',
+    color: '#fff',
+  },
+  'Machine Learning': {
+    tagBG: '#5e8de3',
+    color: '#fff',
+  },
+  Deno: {
+    tagBG: '#434343',
     color: '#fff',
   },
   default: {
@@ -55,4 +70,6 @@ const speakerAvatar = {
 module.exports = {
   tagColors,
   speakerAvatar,
+  conferenceTitle,
+  eventYear,
 };
