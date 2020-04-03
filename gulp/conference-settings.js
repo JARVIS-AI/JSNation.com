@@ -54,6 +54,18 @@ const tagColors = {
     tagBG: '#434343',
     color: '#fff',
   },
+  Angular: {
+    tagBG: '#dd0031',
+    color: 'black'
+  },
+  I18N: {
+    tagBG: '#866bba',
+    color: '#b9efff'
+  },
+  ML: {
+    tagBG: '#dd4b39',
+    color: '#fbff00'
+  },
   default: {
     tagBG: 'black',
     color: 'white',
