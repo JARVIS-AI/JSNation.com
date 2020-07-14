@@ -14,12 +14,14 @@
           <!-- <p>Already with us? Join our <a href="/slack" target="_blank" class="link"><span class="link__icon">{{mixins.icon('sl')}}</span>Slack</a>.</p> -->
         </div>
       </div>
+      
+      {% if pages.main.pageStatistics.techScope %}
       <div class="event__right">
-        <div class="hero__techs-title">First authors and core teams that have joined the lineup:
-        </div>
+        <div class="hero__techs-title">First authors and core teams that have joined the lineup:</div>
         {% include "partials/_techs.html" %}
         <div class="hero__techs-title">Want to know the rest? <a class="link" href="#subscribe">Follow us</a></div>
       </div>
+      {% endif %}
     </div>
   </div>
 
