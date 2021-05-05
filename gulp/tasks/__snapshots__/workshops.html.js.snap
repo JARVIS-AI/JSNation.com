@@ -57,7 +57,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
     <div class=\\"info-wrapper\\">
       <div class=\\"wrapper\\">
         <div class=\\"info-wrapper__inner\\">
-          
+
 <div class=\\"info\\">
   <div class=\\"info__num\\"></div>
   <div class=\\"info__content\\">
@@ -66,7 +66,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
   </div>
 </div>
 
-          
+
 <div class=\\"info\\">
   <div class=\\"info__num\\"></div>
   <div class=\\"info__content\\">
@@ -1466,7 +1466,7 @@ exports[`/home/usul/FocusReactive/GitNation/JSNation.com/build/workshops.html 1`
         t.id = 'gauges-tracker';
         t.setAttribute('data-site-id', '58496fdd4b2ffa62230141f0');
         t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
-        t.src = 'https://d36ee2fcip1434.cloudfront.net/track.js';
+        t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(t, s);
       })();
