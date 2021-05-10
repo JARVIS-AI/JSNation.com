@@ -10,6 +10,7 @@ import videosSlider from './_videosSlider';
 import GoogleMap from './_map';
 import Video from './_video';
 import typing from './_typing';
+import noticePanel from './_noticePanel';
 
 $('.faq__question').click(function() {
   $(this).parent('.faq__item').toggleClass('open');
@@ -23,6 +24,7 @@ breakpointChangeImage();
 scrollTo();
 videosSlider();
 typing();
+noticePanel();
 new GoogleMap();
 new Video({
   btn: CLASSES.videoBtn
